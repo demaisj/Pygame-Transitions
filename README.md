@@ -18,7 +18,7 @@ List of the parameters:
 * `screen`: The screen variable returned by `pygame.display.set_mode` for draw
 * `window_width`: The current window width
 * `window_height`: The current window height
-* `background_color`: *OPTIONNAL* The background color of the screen *(DEFAULT: [0, 0, 0] wich is black)*
+* `background_color`: *OPTIONNAL* The background color of the screen *(DEFAULT: [0, 0, 0] which is black)*
 
 **NOTE**: When resize the window, you should call again this initialization function.
 
@@ -96,8 +96,8 @@ List of parameters:
   * `fadeOutUp`: Fades the page, change its orientation and zooms in to the selected point.
   * `fadeOutDown`: Fades the page and zooms out from the selected point.
 * `duration`: *OPTIONNAL* The duration of the transition in seconds *(DEFAULT: 1 second)*
-* `x`: *OPTIONNAL* X of the selected point for compatible transitions *(DEFAULT: -1 wich means center)*
-* `y`: *OPTIONNAL* Y of the selected point for compatible transitions *(DEFAULT: -1 wich means center)*
+* `x`: *OPTIONNAL* X of the selected point for compatible transitions *(DEFAULT: -1 which means center)*
+* `y`: *OPTIONNAL* Y of the selected point for compatible transitions *(DEFAULT: -1 which means center)*
 
 NOTE: The transition will run at the next frame, but the screen will be copied at the call. So if you draw something after this call, it will be hidden on the transition.
 
